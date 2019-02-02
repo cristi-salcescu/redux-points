@@ -50,11 +50,7 @@ function add_todo(todos, action) {
 `createReducer()` combines all these small functions together to create the original reducer.
 ```
 const reducer = createReducer(
-  {
-    remove_todo,
-    reset_todos,
-    add_todo
-  },
+  { remove_todo, reset_todos, add_todo },
   []
 );
 export default reducer;

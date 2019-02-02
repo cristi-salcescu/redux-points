@@ -8,6 +8,7 @@ A reducer is pure function that takes state and an action as parameters and retu
 Here is how the `todos` reducer may look like:
 ```
 import matchesProperty from "lodash/matchesProperty";
+
 function todos(todos = [], action) {
  switch (action.type) {
   case "add_todo":

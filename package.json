@@ -1,0 +1,13 @@
+{
+  "name": "redux-points",
+  "version": "1.0.2",
+  "description": "Combine small pure functions to create a reducer",
+  "main": "index.js",
+  "keywords": ["flux", "redux", "actions"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristi-salcescu/redux-points.git"
+  },
+  "author": "Cristi Salcescu",
+  "license": "MIT"
+}
